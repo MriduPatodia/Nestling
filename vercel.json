@@ -1,6 +1,0 @@
-{
-  "functions": {
-    "api/index.js": { "includeFiles": "{public,shared,server}/**", "maxDuration": 60 }
-  },
-  "rewrites": [{ "source": "/(.*)", "destination": "/api" }]
-}
